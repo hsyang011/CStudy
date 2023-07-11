@@ -3,6 +3,7 @@
 #include <string.h>
 
 int main() {
+	printf("Hello World!");
 	// 40byte 메모리 동적할당
 	int* arr = (int*)malloc(sizeof(int)*10);
 	// 동적할당에 실패했다면 메인함수 종료
